@@ -11,6 +11,8 @@ import css from './ContactsList.module.css';
     </ul>
   );
 };
+
+
 ContactsList.propTypes = {
   contacts: PropTypes.arrayOf(
     PropTypes.shape({
